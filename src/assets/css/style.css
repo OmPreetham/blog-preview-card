@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* Primary */
+
+  --yellow: hsl(47, 88%, 63%);
+
+  /* Neutral */
+
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+
+  --font-mid: 500;
+  --font-high: 900;
+
+  font-family: 'Figtree', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: var(--yellow);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+section {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 20rem;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  border-radius: 15px;
+}
+
+article {
+  width: 100%;
+}
+
+article:nth-of-type(1),
+article:nth-of-type(2) {
+  margin-bottom: 1.2em;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+a {
+  font-size: 0.7em;
+  background-color: var(--yellow);
+  padding: 0.5em 1em;
+  border-radius: 0.4em;
+  font-weight: var(--font-high);
+}
+
+p {
+  font-size: 0.9em;
+}
+
+h3 {
+  margin-top: 0.5em;
+  font-weight: var(--font-high);
+}
+
+article:nth-of-type(2) p:nth-of-type(2) {
+  color: var(--grey);
+  margin-top: 1em;
+}
+
+article:nth-of-type(2) p:nth-of-type(1) {
+  margin-top: 1rem;
+  font-size: 0.8em;
+  font-weight: var(--font-mid);
+}
+
+article:nth-of-type(3) {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+article:nth-of-type(3) img {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 0.7em;
+}
+
+article:nth-of-type(3) p {
+  font-size: 0.7em;
+  font-weight: var(--font-high);
+}
+
+section:hover,
+section:focus {
+  position: relative;
+  right: 7px;
+  bottom: 7px;
+}
+
+main {
+  background-color: var(--black);
+  width: 20rem;
+  border-radius: 15px;
+}

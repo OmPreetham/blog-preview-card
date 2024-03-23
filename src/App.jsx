@@ -1,7 +1,11 @@
-import Blog from './components/blog/Blog'
+import Blog from './components/Blog'
 
 function App() {
-  return <Blog />
+  return (
+    <main>
+      <Blog />
+    </main>
+  )
 }
 
 export default App

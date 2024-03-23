@@ -123,7 +123,7 @@ section:focus {
   bottom: 7px;
 }
 
-main {
+.background-shadow {
   background-color: var(--black);
   width: 20rem;
   border-radius: 15px;

@@ -1,6 +1,6 @@
 # Blog Preview Card - Vite + React
 
-This project is a simple implementation of a blog preview card built using Vite and React. It showcases a reusable component for displaying blog post previews with customizable content.
+This project is a simple implementation of a blog preview card built using Vite and React. It showcases a reusable component for displaying blog post previews with customizable content. A challenge by Frontend Mentor.
 
 ## Features
 

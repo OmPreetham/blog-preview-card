@@ -2,6 +2,8 @@
 
 This project is a simple implementation of a blog preview card built using Vite and React. It showcases a reusable component for displaying blog post previews with customizable content. A challenge by Frontend Mentor.
 
+![Preview](/public/preview.png)
+
 ## Features
 
 - Displays blog post previews with title, description, and author information.

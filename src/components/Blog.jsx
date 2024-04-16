@@ -3,7 +3,7 @@ const Blog = () => {
     <div className="background-shadow">
       <section>
         <article>
-          <img src="/images/illustration-article.svg" alt="Illustration" />
+          <img src="./images/illustration-article.svg" alt="Illustration" />
         </article>
         <article>
           <a>Learning</a>
@@ -15,7 +15,7 @@ const Blog = () => {
           </p>
         </article>
         <article>
-          <img src="/images/image-avatar.webp" alt="Greg Hooper Potrait" />
+          <img src="./images/image-avatar.webp" alt="Greg Hooper Potrait" />
           <p>Greg Hooper</p>
         </article>
       </section>
